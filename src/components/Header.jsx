@@ -31,7 +31,7 @@ const Header = () => {
 
                     <li>
                         <NavLink
-                            to="/book"
+                            to="/books"
                             className={({ isActive }) => (isActive ? 'text-blue-500' : "default")}
                         >
                             Books
@@ -101,7 +101,7 @@ const Header = () => {
                                         </li>
                                         <li>
                                             <Link
-                                                to='/book'
+                                                to='/books'
                                                 className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
                                             >
                                                 Books
