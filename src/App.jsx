@@ -4,7 +4,7 @@ import Header from "./components/Header"
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App max-w-[1280px] mx-auto'>
       <Header></Header>
       <Outlet></Outlet>
       <Footer></Footer>
